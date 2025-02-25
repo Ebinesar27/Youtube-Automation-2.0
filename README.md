@@ -29,9 +29,9 @@ pip install requirements.txt
 ```bash
 Replace client_.json with your Client.json 
 ```
-Run the Program::
+Run the Program:
 
-```python
+```
 python main.py
 ```
 
