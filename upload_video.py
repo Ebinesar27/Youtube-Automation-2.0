@@ -21,7 +21,7 @@ class Upload_Youtue():
             os.remove(self.TOKEN_FILE)
 
         # Load client secrets file, put the path of your file
-        client_secrets_file = 'client_.json'
+        client_secrets_file = 'client.json'
 
     
         flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
