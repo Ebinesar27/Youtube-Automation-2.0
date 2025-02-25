@@ -8,26 +8,7 @@ class Movie():
         )
         clip_a = AudioFileClip(voice)
 
-        # audclip = AudioFileClip(audio)
-        # CompositeAudioClip(audclip)
-        # video_with_audio = clip.set_audio(audio.subclip(0, video.duration))
-        # aud = AudioClip(frame_function=audio,duration = 5)
-        # au = AudioFileClip(voice)
-        # add = clip.with_audio(au)
         new = CompositeAudioClip([clip_a])
-        
-
-
-
-
-
-# tx = []
-# text =  "For God so loved the world that he gave"
-# for i in text:
-#     # tx.append()
-#     print(i.split())
-
-
 
         txt = TextClip(
         font="C:\Windows\Fonts\ALGER.TTF",
