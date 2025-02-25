@@ -25,17 +25,7 @@ class youtue():
         verse = soup.find_all("h2",attrs={"class":"mb-5 text-lg md:text-2xl font-bold flex-grow"})
         chap = soup.find_all("a",attrs={"class":"text-blue-600 font-bold text-2xl"})
         read = soup.find_all("div",attrs={"class":"leading-8 rounded my-1"})
-        gos = []
 
-        # for verses in verse:
-        #     gos.append(verses.text.strip("\n "))
-        #     print(gos)
-        # for chapt in chap:
-        #     gos.append(chapt.text.strip("\n "))
-        #     print(gos)
-        # for reading in read:
-        #     gos.append(reading.text.strip("\n "))
-        # print(gos[0:3])
         for verses,chapt,reading in zip(verse,chap,read):
             text = verses.text+","+chapt.text+","+reading.text
             text = " ".join(text.split())
