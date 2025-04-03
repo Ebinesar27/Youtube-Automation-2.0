@@ -3,7 +3,7 @@ Automatically add text, generate voice-over, and upload videos to YouTube.
 
 Youtube Channel:
 ```
-http://www.youtube.com/@ebineserebineser9565
+https://www.youtube.com/@ebineserebineser9565
 ```
 
 This project automatically adds text to videos, generates voice-overs, and uploads them to YouTube using Python.
